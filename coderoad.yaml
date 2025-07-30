@@ -18,7 +18,11 @@ config:
 
 levels:
   - id: "1"
-    title: "Level 1"
     steps:
       - id: "1.1"
-        title: "Step 1"
+  - id: '2'
+    steps:
+      - id: '2.1'
+        setup:
+          files:
+            - index.html
