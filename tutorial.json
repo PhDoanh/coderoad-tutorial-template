@@ -40,7 +40,6 @@
       "steps": [
         {
           "id": "1.1",
-          "title": "Step 1",
           "content": "This is the test text. Create an `index.html` file to pass this lesson.",
           "hints": [
             "This is a hint to help people through the test",
@@ -54,6 +53,34 @@
           "solution": {
             "commits": [
               "cb524d22950f529060692f3562c77947dbaa3ebb"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Add DOCTYPE",
+      "summary": "Add a DOCTYPE to an HTML file",
+      "content": "HTML files should have a `DOCTYPE`. You can add one at the top of the `index.html` file like this: `<!DOCTYPE html>`.",
+      "steps": [
+        {
+          "id": "2.1",
+          "setup": {
+            "files": [
+              "index.html"
+            ],
+            "commits": [
+              "ef35652c596edf8aa5b2e310c5e4a8722074c272"
+            ]
+          },
+          "content": "Add the DOCTYPE",
+          "hints": [
+            "Add `<!DOCTYPE html>` at the top of `index.html` and save the file"
+          ],
+          "solution": {
+            "commits": [
+              "b118ea0192c6731c5c89c3fa2c7e80f705fee0d6"
             ]
           }
         }
