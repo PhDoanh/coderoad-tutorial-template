@@ -1,4 +1,5 @@
-version: '0.1.0'
+version: "0.1.0"
+
 config:
   testRunner:
     command: ./node_modules/.bin/mocha
@@ -13,8 +14,11 @@ config:
     branch: v0.1.0
   dependencies:
     - name: node
-      version: '>=10'
+      version: ">=10"
+
 levels:
-  - id: '1'
+  - id: "1"
+    title: "Level 1"
     steps:
-      - id: '1.1'
+      - id: "1.1"
+        title: "Step 1"
